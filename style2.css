@@ -1,0 +1,368 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*about me styling*/
+.wholepage {
+    display: flex;
+    height: 632px;
+    
+}
+
+.col1 {
+    flex: 2;
+    background-color: #f5b32f;
+}
+
+.col2 {
+    flex: 9;
+    background-color: #d3d3d3;
+    padding: 70px 50px 40px;
+    
+}
+
+.col3 {
+    flex: 1;
+    background-color: #d3d3d3;
+}
+/*colum1 styling*/
+img {
+    width: 100%;
+    height: 200px;
+}
+
+.myinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.myinfo a {
+    font-family: Catamaran;
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.myinfo a:hover {
+    color: white;
+}
+
+/*column2*/
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: 750;
+    text-align: center;
+    border: 1.5px solid black;
+}
+
+.about {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 30px 0px 15px;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.short-note {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 25px;
+    
+}
+
+.Srow-col2 {
+    display: flex;
+    width: 850px;
+    
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 45%;
+    height: 300px;
+    
+}
+
+.left-l {
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    border-right: 0.5px solid white;
+    height: 85%;
+    margin: auto 0;
+    display: inline-block;
+}
+
+.left-r {
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    border-left: 0.5px solid white;
+    height: 85%;
+    margin: auto 0;
+    display: inline-block;
+}
+
+.one {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid white;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.two {
+    width: 100%;
+    height: 50%;
+}
+
+.three {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid white;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+}
+
+.four {
+    width: 100%;
+    height: 50%;
+    /*border-top: 1px solid white;
+    width: 85%;
+    margin: 0 auto;
+    display: block;*/
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.one h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f5b32f;
+    text-align: center;
+}
+
+.two h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 35px;
+    color: #f5b32f;
+    text-align: center;
+    
+}
+
+.three h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #f5b32f;
+    text-align: center;
+}
+
+.four h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 35px;
+    color: #f5b32f;
+    text-align: center;
+}
+
+.one p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.two p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.three p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.four p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 300px;
+    background-color: #d3d3d3;
+}
+
+.right-c {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px ;
+}
+
+.whatido {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.iconb img {
+    width: 55px;
+    height: 55px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.textb {
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 7px;
+    text-align: justify;
+}
+
+/*colum3*/
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    margin: 145px 10px 50px auto;
+    background-color: #f5b32f;
+    width: fit-content;
+    line-height: 40px;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.icona {
+    transition: transform 0.3s ease;
+}
+
+
+.icona:hover {
+    transform: scale(1.3);
+    fill: azure;
+}
